@@ -1,5 +1,5 @@
 require('babel-core/register')({
-	  presets: ['es2015'],
+	  presets: ['latest']
 })
 require('babel-polyfill')
 require('./serverOne/app')

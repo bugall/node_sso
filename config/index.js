@@ -5,5 +5,9 @@ export default {
 		port: 3001
 	}, ssoService: {
 		port: 3002
+	}, staticFilter: {
+		common: ['js'],
+		serverOne: ['js'],
+		serverTwo: ['js'],
 	}
 }
